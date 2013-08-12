@@ -15,3 +15,5 @@ Steps to get the API key:
 - Visit the developer portal of Pipl.com [http://dev.pipl.com/io-docs] and Register for free demo key. <br/>
 - After getting your API key, input the key in the application API Screen.
  
+# Supported platforms:
+iPhone, iPad, Android, Android tablet, SPA iPhone, SPA iPad, SPA Android, SPA Android tablet and DesktopWeb
