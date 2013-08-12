@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <dataprovider></dataprovider>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>other</group>
+        <httpmethod></httpmethod>
+        <id>city_state_List</id>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>country</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>IN</testvalue>
+            <value></value>
+        </inparam>
+        <intemplate></intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>{
+   "AN": "Andaman and Nicobar Islands",
+   "AP": "Andhra Pradesh",
+   "AR": "Arunachal Pradesh",
+   "AS": "Assam",
+   "BR": "Bihar",
+   "CH": "Chandigarh",
+   "CT": "Chhattisgarh",
+   "DD": "Daman and Diu",
+   "DL": "Delhi",
+   "DN": "Dadra and Nagar Haveli",
+   "GA": "Goa",
+   "GJ": "Gujarat",
+   "HP": "Himachal Pradesh",
+   "HR": "Haryana",
+   "JH": "Jharkhand",
+   "JK": "Jammu and Kashmir",
+   "KA": "Karnataka",
+   "KL": "Kerala",
+   "LD": "Lakshadweep",
+   "MH": "Maharashtra",
+   "ML": "Meghalaya",
+   "MN": "Manipur",
+   "MP": "Madhya Pradesh",
+   "MZ": "Mizoram",
+   "NL": "Nagaland",
+   "OR": "Orissa",
+   "PB": "Punjab",
+   "PY": "Puducherry",
+   "RJ": "Rajasthan",
+   "SK": "Sikkim",
+   "TN": "Tamil Nadu",
+   "TR": "Tripura",
+   "UL": "Uttarakhand",
+   "UP": "Uttar Pradesh",
+   "WB": "West Bengal"
+}</outtemplate>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>states</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>.</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>http://www.westclicks.com/webservices/?f=json&amp;c=$country</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>

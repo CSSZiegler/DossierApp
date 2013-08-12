@@ -1,0 +1,61 @@
+<application desc="" id="dossierapp" name="" smscode="">
+   <app-config>
+      <config-param name="APP_SMS_HEADER" value="null"/>
+   </app-config>
+   <services>
+      <service cachable="false" cacheduration="" id="dossierXMLService" passwordencrypted="true" smscode="" smsenabled="false" type="plainxmlserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://api.pipl.com/search/v3/xml/?first_name=$FirstName&amp;last_name=$LastName&amp;city=$City&amp;state=$State&amp;country=$Country&amp;exact_name=0&amp;query_params_mode=and&amp;key=$APIKey"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="http.method" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <param datatype="string" encode="true" name="APIKey" sms-name="" src="" value=""/>
+            <param datatype="string" encode="true" name="FirstName" sms-name="" src="" value=""/>
+            <param datatype="string" encode="true" name="LastName" sms-name="" src="" value=""/>
+            <param datatype="string" encode="true" name="City" sms-name="" src="" value=""/>
+            <param datatype="string" encode="true" name="State" sms-name="" src="" value=""/>
+            <param datatype="string" encode="true" name="Country" sms-name="" src="" value=""/>
+         </service-input>
+         <service-output>
+            <dataset id="dossierSet" src="//records">
+               <param datatype="string" format="None" formatvalue="" name="names" sms-name="" src="record/names/name/display" target="response"/>
+               <record id="source" src="//source">
+                  <param datatype="string" format="None" formatvalue="" name="url" sms-name="" src="url" target="response"/>
+                  <param datatype="string" format="None" formatvalue="" name="name" sms-name="" src="name" target="response"/>
+               </record>
+               <param datatype="string" format="None" formatvalue="" name="dobs" sms-name="" src="record/dobs/dob/display" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="tags" sms-name="" src="record/tags/tag" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="images" sms-name="" src="record/images/image[1]/url" target="response"/>
+               <dataset id="addresses" src="//addresses">
+                  <param datatype="string" format="None" formatvalue="" name="display" sms-name="" src="address/display" target="response"/>
+               </dataset>
+               <dataset id="relationships" src="//relationships">
+                  <param datatype="string" format="None" formatvalue="" name="display" sms-name="" src="relationship/name/display" target="response"/>
+               </dataset>
+               <param datatype="string" format="None" formatvalue="" name="phones" sms-name="" src="record/phones/phone/display_international" target="response"/>
+               <dataset id="jobs" src="//jobs">
+                  <param datatype="string" format="None" formatvalue="" name="display" sms-name="" src="job/display" target="response"/>
+               </dataset>
+               <param datatype="string" format="None" formatvalue="" name="educations" sms-name="" src="record/educations/education/school" target="response"/>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" target=""/>
+         </service-output>
+      </service>
+   </services>
+</application>
