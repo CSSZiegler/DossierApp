@@ -3424,12 +3424,16 @@
                                 <key>js</key>
                                 <value>settingtheAPIKey</value>
                             </entry>
+                            <entry>
+                                <key>lua</key>
+                                <value>None</value>
+                            </entry>
                         </functionNameMap>
                         <paramData>
                             <datatype>string</datatype>
                             <paramName>FormRef</paramName>
                             <valType>0</valType>
-                            <value>frmAPIKey</value>
+                            <value></value>
                             <valueMap>
                                 <entry>
                                     <key>js</key>
@@ -3446,6 +3450,23 @@
                                         <paramName>FormRef</paramName>
                                         <valType>0</valType>
                                         <value>frmAPIKey</value>
+                                        <valueMap>
+                                            <entry>
+                                                <key>js</key>
+                                                <value>frmAPIKey</value>
+                                            </entry>
+                                        </valueMap>
+                                    </paramList>
+                                </value>
+                            </entry>
+                            <entry>
+                                <key>lua</key>
+                                <value>
+                                    <paramList>
+                                        <datatype>string</datatype>
+                                        <paramName>FormRef</paramName>
+                                        <valType>0</valType>
+                                        <value></value>
                                         <valueMap>
                                             <entry>
                                                 <key>js</key>
