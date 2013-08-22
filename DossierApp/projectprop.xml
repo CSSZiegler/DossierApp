@@ -5,7 +5,7 @@
     <attributes name="ACCESS_NETWORK_STATE" value="true"/>
     <attributes name="ACCESS_WIFI_STATE" value="false"/>
     <attributes name="SET_WALLPAPER_HINTS" value="false"/>
-    <attributes name="mwaddrkey" value="sampleapps.konylabs.net"/>
+    <attributes name="mwaddrkey" value="10.10.4.129"/>
     <attributes name="win8packagenamekey" value="DossierApp"/>
     <attributes name="portkey" value=""/>
     <attributes name="WP8_ID_CAP_LOCATION" value="true"/>
@@ -20,20 +20,20 @@
     <attributes name="Home_or_Work_Networking" value="true"/>
     <attributes name="PERSISTENT_ACTIVITY" value="false"/>
     <attributes name="andminsdkkey" value="2.1"/>
+    <attributes name="wp8iconimagekey" value=""/>
     <attributes name="Internet(Client_AND_Server)" value="true"/>
     <attributes name="READ_SMS" value="false"/>
     <attributes name="ID_CAP_ISV_CAMERA" value="true"/>
     <attributes name="applepushfunc" value="None"/>
-    <attributes name="certs_key_store_type" value="JKS"/>
     <attributes name="Internet(Client)" value="true"/>
     <attributes name="urlschemanameorder" value=""/>
     <attributes name="win8packagelogokey" value=""/>
     <attributes name="desktopwebwidthoption" value="Percentage"/>
-    <attributes name="certs_trust_store_pwd" value="kds/0eUc+i3BqFqSkpCk4g=="/>
     <attributes name="MODIFY_AUDIO_SETTINGS" value="false"/>
     <attributes name="CAMERA" value="false"/>
     <attributes name="tcnth480basefontsize" value="17"/>
     <attributes name="GLOBAL_SEARCH" value="false"/>
+    <attributes name="hybridaddrkey" value=""/>
     <attributes name="WP8_ID_CAP_MEDIALIB_PHOTO" value="true"/>
     <attributes name="winsmoothscrollkey" value="true"/>
     <attributes name="CLEAR_APP_USER_DATA" value="false"/>
@@ -44,7 +44,6 @@
     <attributes name="win8widelogokey" value=""/>
     <attributes name="RESTART_PACKAGES" value="false"/>
     <attributes name="ID_CAP_PHONEDIALER" value="true"/>
-    <attributes name="certs_trust_store_type" value="JKS"/>
     <attributes name="WP8_ID_CAP_WALLET_PAYMENTINSTRUMENTS" value="true"/>
     <attributes name="backward_compatibility_mode" value="false"/>
     <attributes name="removeprintstatements" value="true"/>
@@ -84,7 +83,6 @@
     <attributes name="appnamekey" value="DossierApp"/>
     <attributes name="iphonebundleversionkey" value="1.0"/>
     <attributes name="WP8_ID_CAP_MICROPHONE" value="true"/>
-    <attributes name="log_level" value="ERROR"/>
     <attributes name="wp8packageauthorkey" value=""/>
     <attributes name="READ_HISTORY_BOOKMARKS" value="false"/>
     <attributes name="WP8_ID_CAP_VOIP" value="true"/>
@@ -114,6 +112,7 @@
     <attributes name="desktopwebwidthval" value="100"/>
     <attributes name="svcportkey" value=""/>
     <attributes name="BIND_INPUT_METHOD" value="false"/>
+    <attributes name="deviceexception" value="Unknown Error Occurred &lt;br/&gt; Contact System Admin"/>
     <attributes name="thinwebcontextkey" value=""/>
     <attributes name="DUMP" value="false"/>
     <attributes name="wp8tilestemplatekey" value="FLIP_TILE"/>
@@ -124,7 +123,7 @@
     <attributes name="tcandroid400basefontsize" value="14"/>
     <attributes name="win8packagedisplaynamekey" value="DossierApp"/>
     <attributes name="androidscreenresizeable" value="false"/>
-    <attributes name="svcusedefault" value="false"/>
+    <attributes name="svcusedefault" value="true"/>
     <attributes name="spawindowstabbasefontsize" value="17"/>
     <attributes name="tcandroid440basefontsize" value="15"/>
     <attributes name="MANAGE_ACCOUNTS" value="false"/>
@@ -133,7 +132,7 @@
     <attributes name="desktopwebaligenmentoption" value="left"/>
     <attributes name="hostkey" value=""/>
     <attributes name="win8badgelogokey" value=""/>
-    <attributes name="mwportkey" value=""/>
+    <attributes name="mwportkey" value="8080"/>
     <attributes name="wp8packagepublisherkey" value="Kony"/>
     <attributes name="enablefocushtml5iphonbb" value="false"/>
     <attributes name="win8certificatekey" value=""/>
@@ -142,6 +141,7 @@
     <attributes name="win8packagepublichernamekey" value="Kony"/>
     <attributes name="andmaxsdkkey" value="None"/>
     <attributes name="ID_CAP_APPOINTMENTS" value="true"/>
+    <attributes name="wp8iconcountnotificationkey" value="false"/>
     <attributes name="READ_SYNC_SETTINGS" value="false"/>
     <attributes name="SET_PREFERRED_APPLICATIONS" value="false"/>
     <attributes name="WRITE_HISTORY_BOOKMARKS" value="false"/>
@@ -189,6 +189,7 @@
     <attributes name="appiniteventkey" value="None"/>
     <attributes name="ID_RESOLUTION_WXGA" value="true"/>
     <attributes name="GET_PACKAGE_SIZE" value="false"/>
+    <attributes name="devicemsg" value="This device is currently not supported"/>
     <attributes name="CHANGE_WIFI_STATE" value="false"/>
     <attributes name="allowselfsignedcertificate" value="false"/>
     <attributes name="ID_CAP_MEDIALIB" value="true"/>
@@ -205,8 +206,10 @@
     <attributes name="bgcolorkey" value="181,217,245"/>
     <attributes name="BIND_APPWIDGET" value="false"/>
     <attributes name="READ_CALENDAR" value="false"/>
+    <attributes name="hybridhttpsportkey" value=""/>
     <attributes name="wp8cycle5key" value=""/>
     <attributes name="Removable_Storage" value="true"/>
+    <attributes name="hybdridcontextkey" value=""/>
     <attributes name="ipadlandscapemodekey" value="true"/>
     <attributes name="KILL_BACKGROUND_PROCESSES" value="false"/>
     <attributes name="tcnth400basefontsize" value="14"/>
@@ -218,8 +221,6 @@
     <attributes name="win8lockscreennotificationskey" value="not set"/>
     <attributes name="andapplicationtags" value=""/>
     <attributes name="exceptionalert" value="true"/>
-    <attributes name="cloud_url" value="http://10.211.55.4:8080"/>
-    <attributes name="certs_key_store_pwd" value="kds/0eUc+i3BqFqSkpCk4g=="/>
     <attributes name="CALL_PRIVILEGED" value="false"/>
     <attributes name="wp8cycle8key" value=""/>
     <attributes name="SUBSCRIBED_FEEDS_READ" value="false"/>
@@ -234,13 +235,10 @@
     <attributes name="READ_FRAME_BUFFER" value="false"/>
     <attributes name="RECEIVE_WAP_PUSH" value="false"/>
     <attributes name="appversioncode" value="1"/>
-    <attributes name="cloud_selected_ipaddress_list" value="http://10.211.55.4:8080"/>
     <attributes name="wp8fliplargekey" value=""/>
-    <attributes name="bbbuildoption" value="true"/>
     <attributes name="BIND_DEVICE_ADMIN" value="false"/>
     <attributes name="build" value="release"/>
     <attributes name="MANAGE_APP_TOKENS" value="false"/>
-    <attributes name="winbuildoption" value="true"/>
     <attributes name="MODIFY_PHONE_STATE" value="false"/>
     <attributes name="WP8_ID_CAP_REMOVABLE_STORAGE" value="true"/>
     <attributes name="Pictures_Library_Access" value="true"/>
@@ -250,11 +248,13 @@
     <attributes name="androidscreenlarge" value="true"/>
     <attributes name="tcnth360basefontsize" value="13"/>
     <attributes name="INJECT_EVENTS" value="false"/>
+    <attributes name="generateJavaCodeForForms" value="false"/>
     <attributes name="wintilebackcolornamekey" value="128,128,128"/>
     <attributes name="wp8cyclesmallkey" value=""/>
     <attributes name="win8versionrevisionkey" value="0"/>
     <attributes name="ACCESS_LOCATION_EXTRA_COMMANDS" value="false"/>
     <attributes name="appaddrkey" value="http://accounts-qa.konycloud.com/api/v1_0/environments/30270867-91e8-441e-94ab-ce1f86807289/applications"/>
+    <attributes name="hybridportkey" value=""/>
     <attributes name="andmanifesttags" value=""/>
     <attributes name="ACCESS_MOCK_LOCATION" value="false"/>
     <attributes name="SYSTEM_ALERT_WINDOW" value="false"/>
@@ -286,6 +286,7 @@
     <attributes name="winmobileguidkey" value="6876271c-bd7a-42b0-adc3-40285b696d8c"/>
     <attributes name="desktopstartupformkey" value="frmHome"/>
     <attributes name="tcbjs240basefontsize" value="10"/>
+    <attributes name="wp8lockscreenbackgroundkey" value="false"/>
     <attributes name="SET_ALWAYS_FINISH" value="false"/>
     <attributes name="WP8_ID_CAP_SPEECH_RECOGNITION" value="true"/>
     <attributes name="apptitle" value=""/>
@@ -293,9 +294,9 @@
     <attributes name="WP8_ID_CAP_WALLET_SECUREELEMENT" value="true"/>
     <attributes name="SET_ALARM" value="false"/>
     <attributes name="ID_REQ_NFC" value="true"/>
-    <attributes name="certs_ssl_algorithm" value="TLS"/>
     <attributes name="androidorientation" value="Both"/>
     <attributes name="RECEIVE_MMS" value="false"/>
+    <attributes name="wp8textnotificationkey" value="false"/>
     <attributes name="WRITE_SYNC_SETTINGS" value="false"/>
     <attributes name="WRITE_EXTERNAL_STORAGE" value="false"/>
     <attributes name="tcbb440basefontsize" value="15"/>
@@ -318,7 +319,6 @@
     <attributes name="androidscreennormal" value="true"/>
     <attributes name="WAKE_LOCK" value="false"/>
     <attributes name="wp8iconicmediumkey" value=""/>
-    <attributes name="cloud_config_ipaddress_list" value=""/>
     <attributes name="tcnth320basefontsize" value="15"/>
     <attributes name="SET_ACTIVITY_WATCHER" value="false"/>
     <attributes name="WP8_ID_CAP_WALLET" value="true"/>
@@ -353,8 +353,8 @@
     <attributes name="BROADCAST_SMS" value="false"/>
     <attributes name="FACTORY_TEST" value="false"/>
     <attributes name="tcphoneformatindicator" value="false"/>
-    <attributes name="win8publisherdisplaynamekey" value="KonyLabs"/>
     <attributes name="WP8_ID_CAP_CONTACTS" value="true"/>
+    <attributes name="win8publisherdisplaynamekey" value="KonyLabs"/>
     <attributes name="ID_REQ_REARCAMERA" value="true"/>
     <attributes name="tcandroid360basefontsize" value="13"/>
     <attributes name="Location" value="true"/>
@@ -362,10 +362,10 @@
     <attributes name="wp8cycle7key" value=""/>
     <attributes name="tcbb400basefontsize" value="14"/>
     <attributes name="spaandroidtab800basefontsize" value="14"/>
-    <attributes name="spawindows320basefontsize" value="12"/>
     <attributes name="bbservicemenuitemlabel" value=""/>
+    <attributes name="spawindows320basefontsize" value="12"/>
     <attributes name="ACCESS_SURFACE_FLINGER" value="false"/>
-    <attributes name="currentgaversion" value="5.0.96.QA_v201306101417"/>
+    <attributes name="currentgaversion" value="5.0.98.QA_v201308201731_r10"/>
     <attributes name="ID_CAP_WEBBROWSERCOMPONENT" value="true"/>
     <attributes name="mwhttpsportkey" value=""/>
     <attributes name="pathkey" value=""/>
