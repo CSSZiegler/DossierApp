@@ -3,7 +3,6 @@ Dossier Application
 
 Application to Showcase XML and JSON Services.
 
-Project Owner: Malla Nandikonda <Malla.Nandikonda@kony.com>
 
 # Purpose
 The purpose of this application is to showcase XML service of Pipl.com search API and JSON service for list of states/country<br/>
@@ -16,4 +15,12 @@ Steps to get the API key:
 - After getting your API key, input the key in the application API Screen.
  
 # Supported platforms:
-iPhone, iPad, Android, Android tablet, SPA iPhone, SPA iPad, SPA Android, SPA Android tablet and DesktopWeb
+* iPhone
+* iPad
+* Android
+* Android tablet
+* SPA iPhone
+* SPA iPad
+* SPA Android
+* SPA Android tablet
+* DesktopWeb
