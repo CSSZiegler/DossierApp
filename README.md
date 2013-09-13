@@ -22,7 +22,7 @@ Steps to get the API key:
  * SPA iPhone
  
 **Tablet** 
- * Anroid
+ * Android
  * iPad
  * SPA iPad
  * SPA Android
