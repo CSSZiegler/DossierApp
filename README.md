@@ -15,8 +15,10 @@ To build and run this app you will need to download and install [Kony Studio](ht
 **Mobile**
  * Android
  * iPhone
+ * BlackBerry 
  * SPA Android
  * SPA iPhone
+ * SPA BlackBerry
  
 **Tablet** 
  * Android

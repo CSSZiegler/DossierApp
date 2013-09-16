@@ -54,7 +54,7 @@ var gcountries = [
 
 	function CSList_callbackFunction(status,resultedData)
 	{
-		var arrStateMasterData = [["select_state", "Select State"]];				
+		var arrStateMasterData = [];				
 		if(status == 400)
 		{	
 			if(resultedData["opstatus"] == 0)
@@ -66,6 +66,8 @@ var gcountries = [
 					if(key != "httpresponse" )
 						arrStateMasterData.push([key, resultedData[key]]);
 				}
+				arrStateMasterData.sort();
+				arrStateMasterData.unshift(["select_state", "Select State"]);
 				gFormRef.lstbxState.masterData = arrStateMasterData;
 				gFormRef.lstbxState.setEnabled(true);
 				gFormRef.lstbxState.skin = "sknListBxBgImage";
