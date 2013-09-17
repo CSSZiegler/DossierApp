@@ -9208,8 +9208,8 @@
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
-                            <left>10</left>
-                            <right>10</right>
+                            <left>0</left>
+                            <right>70</right>
                             <top>10</top>
                             <bottom>2</bottom>
                             <unit>%</unit>

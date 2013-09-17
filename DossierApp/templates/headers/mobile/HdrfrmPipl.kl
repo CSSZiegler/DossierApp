@@ -4680,7 +4680,7 @@
             <createdGAVersion>5.5.0</createdGAVersion>
             <location>
                 <x>1</x>
-                <y>275</y>
+                <y>155</y>
             </location>
             <size>
                 <width>448</width>
@@ -6082,8 +6082,8 @@
                             <left>0</left>
                             <right>0</right>
                             <top>0</top>
-                            <bottom>1</bottom>
-                            <unit>px</unit>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
                         </iphonerc>
                         <iphonerc_override>true</iphonerc_override>
                         <j2me>
@@ -6561,7 +6561,7 @@
                         <height>false</height>
                     </overridePerferred>
                     <contentAlign>6</contentAlign>
-                    <parent_contentalignment>bottom-left</parent_contentalignment>
+                    <parent_contentalignment>middle-left</parent_contentalignment>
                     <parent_wrapping>word</parent_wrapping>
                     <parent_longText>false</parent_longText>
                     <parent_renderAsAnchor>false</parent_renderAsAnchor>

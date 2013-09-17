@@ -9224,8 +9224,8 @@
                         <winmobile6x_override>true</winmobile6x_override>
                         <winmobile_override>false</winmobile_override>
                         <winphone8>
-                            <left>10</left>
-                            <right>10</right>
+                            <left>0</left>
+                            <right>70</right>
                             <top>10</top>
                             <bottom>2</bottom>
                             <unit>%</unit>
