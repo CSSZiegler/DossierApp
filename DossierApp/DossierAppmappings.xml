@@ -3,11 +3,9 @@
     <container displayname="Form" id="frmPipl" type="form"/>
     <container displayname="Form" id="frmPipl" type="form"/>
     <container displayname="Popup" id="popUpAPIKeyinfo" type="dialog"/>
-    <container displayname="Popup" id="HdrfrmPipl" type="dialog"/>
     <container displayname="Form" id="frmAPIKey" type="form">
         <component displayname="TextBox2" id="txtAPIKey" type="textbox2"/>
     </container>
-    <container displayname="Form" id="frmDossier" type="form"/>
     <container displayname="Form" id="frmHome" type="form">
         <component displayname="TextBox2" id="txtFirstName" type="textbox2"/>
         <component displayname="TextBox2" id="txtLastName" type="textbox2"/>
@@ -17,13 +15,6 @@
     </container>
     <container displayname="Form" id="frmPipl" type="form"/>
     <container displayname="Popup" id="popUpAPIKeyinfo" type="dialog"/>
-    <container displayname="Form" id="frmHome" type="form">
-        <component displayname="TextBox2" id="txtFirstName" type="textbox2"/>
-        <component displayname="TextBox2" id="txtLastName" type="textbox2"/>
-        <component displayname="TextBox2" id="txtCity" type="textbox2"/>
-        <component displayname="ListBox" id="lstbxState" type="listbox"/>
-        <component displayname="ListBox" id="lstbxCountry" type="listbox"/>
-    </container>
     <container displayname="Form" id="frmHome" type="form">
         <component displayname="TextBox2" id="txtFirstName" type="textbox2"/>
         <component displayname="TextBox2" id="txtLastName" type="textbox2"/>
@@ -43,6 +34,13 @@
     </container>
     <container displayname="Form" id="frmPipl" type="form"/>
     <container displayname="Popup" id="popUpAPIKeyinfo" type="dialog"/>
+    <container displayname="Form" id="frmHome" type="form">
+        <component displayname="TextBox2" id="txtFirstName" type="textbox2"/>
+        <component displayname="TextBox2" id="txtLastName" type="textbox2"/>
+        <component displayname="TextBox2" id="txtCity" type="textbox2"/>
+        <component displayname="ListBox" id="lstbxState" type="listbox"/>
+        <component displayname="ListBox" id="lstbxCountry" type="listbox"/>
+    </container>
     <globalsequences/>
     <skins/>
 </application>

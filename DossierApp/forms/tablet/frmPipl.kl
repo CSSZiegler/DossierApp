@@ -742,9 +742,9 @@
         <winphone8_backButton>false</winphone8_backButton>
         <winphone8_maxappmenubuttons>4</winphone8_maxappmenubuttons>
         <win8TitleBarData>
-            <backButtonSkin>Skin Defaults</backButtonSkin>
+            <backButtonSkin>sknBtnWindow8Tablet</backButtonSkin>
             <showBackButton>true</showBackButton>
-            <skinID>Skin Defaults</skinID>
+            <skinID>titleBarSkn</skinID>
             <visible>true</visible>
         </win8TitleBarData>
         <android_orientation>0</android_orientation>
@@ -1079,7 +1079,7 @@
                     <bottom>1</bottom>
                     <unit>px</unit>
                 </windows8>
-                <windows8_override>true</windows8_override>
+                <windows8_override>false</windows8_override>
                 <winmobile>
                     <left>0</left>
                     <right>0</right>
@@ -1734,7 +1734,7 @@
                         <bottom>1</bottom>
                         <unit>px</unit>
                     </windows8>
-                    <windows8_override>true</windows8_override>
+                    <windows8_override>false</windows8_override>
                     <winmobile>
                         <left>0</left>
                         <right>0</right>
@@ -8812,8 +8812,8 @@
                                         </sizePercent>
                                         <skinId>Skin Defaults</skinId>
                                         <focusSkinId>Skin Defaults</focusSkinId>
-                                        <referenceWidth>30</referenceWidth>
-                                        <referenceHeight>30</referenceHeight>
+                                        <referenceWidth>50</referenceWidth>
+                                        <referenceHeight>50</referenceHeight>
                                         <localeId>None</localeId>
                                         <visible>true</visible>
                                         <rendererData>
@@ -10367,7 +10367,7 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>1</left>
+                            <left>5</left>
                             <right>1</right>
                             <top>1</top>
                             <bottom>1</bottom>
@@ -12985,7 +12985,7 @@
                                         <thinclient_override>false</thinclient_override>
                                         <type>1</type>
                                         <windows8>
-                                            <left>0</left>
+                                            <left>2</left>
                                             <right>0</right>
                                             <top>0</top>
                                             <bottom>0</bottom>
@@ -18723,8 +18723,8 @@
                                     </sizePercent>
                                     <skinId>Skin Defaults</skinId>
                                     <focusSkinId>Skin Defaults</focusSkinId>
-                                    <referenceWidth>120</referenceWidth>
-                                    <referenceHeight>100</referenceHeight>
+                                    <referenceWidth>100</referenceWidth>
+                                    <referenceHeight>90</referenceHeight>
                                     <localeId>None</localeId>
                                     <visible>true</visible>
                                     <rendererData>
@@ -41695,8 +41695,8 @@
                                     </sizePercent>
                                     <skinId>Skin Defaults</skinId>
                                     <focusSkinId>Skin Defaults</focusSkinId>
-                                    <referenceWidth>120</referenceWidth>
-                                    <referenceHeight>100</referenceHeight>
+                                    <referenceWidth>100</referenceWidth>
+                                    <referenceHeight>90</referenceHeight>
                                     <localeId>None</localeId>
                                     <visible>true</visible>
                                     <rendererData>
@@ -42583,10 +42583,10 @@
                                         <thinclient_override>false</thinclient_override>
                                         <type>1</type>
                                         <windows8>
-                                            <left>1</left>
-                                            <right>1</right>
-                                            <top>1</top>
-                                            <bottom>1</bottom>
+                                            <left>2</left>
+                                            <right>0</right>
+                                            <top>0</top>
+                                            <bottom>0</bottom>
                                             <unit>px</unit>
                                         </windows8>
                                         <windows8_override>true</windows8_override>
@@ -48259,8 +48259,8 @@
                                             </sizePercent>
                                             <skinId>Skin Defaults</skinId>
                                             <focusSkinId>Skin Defaults</focusSkinId>
-                                            <referenceWidth>120</referenceWidth>
-                                            <referenceHeight>100</referenceHeight>
+                                            <referenceWidth>100</referenceWidth>
+                                            <referenceHeight>90</referenceHeight>
                                             <localeId>None</localeId>
                                             <visible>true</visible>
                                             <rendererData>
@@ -49147,7 +49147,7 @@
                                                 <thinclient_override>false</thinclient_override>
                                                 <type>1</type>
                                                 <windows8>
-                                                    <left>0</left>
+                                                    <left>2</left>
                                                     <right>0</right>
                                                     <top>0</top>
                                                     <bottom>0</bottom>
@@ -51072,7 +51072,7 @@
                                                         <thinclient_override>false</thinclient_override>
                                                         <type>1</type>
                                                         <windows8>
-                                                            <left>1</left>
+                                                            <left>5</left>
                                                             <right>1</right>
                                                             <top>1</top>
                                                             <bottom>1</bottom>
@@ -56923,7 +56923,7 @@
                 <rc_j2me>true</rc_j2me>
                 <rc_palm>true</rc_palm>
                 <rc_symbian>true</rc_symbian>
-                <rc_windows8>true</rc_windows8>
+                <rc_windows8>false</rc_windows8>
                 <rc_winmobile>true</rc_winmobile>
                 <rc_winmobile6x>true</rc_winmobile6x>
                 <rc_winphone8>true</rc_winphone8>
@@ -58183,6 +58183,7 @@
         <overrideProperties>KForm.ipadtitleBar</overrideProperties>
         <overrideProperties>KForm.iphonetitleBar</overrideProperties>
         <overrideProperties>KForm.pb_titleBar</overrideProperties>
+        <overrideProperties>KForm.win8titleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>
         <winphone8_intransitionmode>Default</winphone8_intransitionmode>

@@ -165,7 +165,7 @@
     <attributes name="tcbjs240basefontsize" value="10"/>
     <attributes name="SET_ALWAYS_FINISH" value="false"/>
     <attributes name="apptitle" value=""/>
-    <attributes name="apppackagekey" value="com.orgname.DossierApp"/>
+    <attributes name="apppackagekey" value="com.kony.DossierApp"/>
     <attributes name="WP8_ID_CAP_WALLET_SECUREELEMENT" value="false"/>
     <attributes name="SET_ALARM" value="false"/>
     <attributes name="read_device_identifying_information" value="false"/>
