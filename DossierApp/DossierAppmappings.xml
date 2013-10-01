@@ -1,45 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<application id="DossierApp" name="DossierApp">
-    <container displayname="Form" id="frmPipl" type="form"/>
-    <container displayname="Form" id="frmPipl" type="form"/>
-    <container displayname="Popup" id="popUpAPIKeyinfo" type="dialog"/>
-    <container displayname="Form" id="frmAPIKey" type="form">
-        <component displayname="TextBox2" id="txtAPIKey" type="textbox2"/>
+<application name="DossierApp" id="DossierApp">
+    <container type="form" id="frmPipl" displayname="Form"/>
+    <container type="form" id="frmPipl" displayname="Form"/>
+    <container type="dialog" id="popUpAPIKeyinfo" displayname="Popup"/>
+    <container type="form" id="frmAPIKey" displayname="Form">
+        <component type="textbox2" id="txtAPIKey" displayname="TextBox2"/>
     </container>
-    <container displayname="Form" id="frmHome" type="form">
-        <component displayname="TextBox2" id="txtFirstName" type="textbox2"/>
-        <component displayname="TextBox2" id="txtLastName" type="textbox2"/>
-        <component displayname="TextBox2" id="txtCity" type="textbox2"/>
-        <component displayname="ListBox" id="lstbxState" type="listbox"/>
-        <component displayname="ListBox" id="lstbxCountry" type="listbox"/>
+    <container type="form" id="frmPipl" displayname="Form"/>
+    <container type="dialog" id="popUpAPIKeyinfo" displayname="Popup"/>
+    <container type="form" id="frmHome" displayname="Form">
+        <component type="textbox2" id="txtFirstName" displayname="TextBox2"/>
+        <component type="textbox2" id="txtLastName" displayname="TextBox2"/>
+        <component type="textbox2" id="txtCity" displayname="TextBox2"/>
+        <component type="listbox" id="lstbxState" displayname="ListBox"/>
+        <component type="listbox" id="lstbxCountry" displayname="ListBox"/>
     </container>
-    <container displayname="Form" id="frmPipl" type="form"/>
-    <container displayname="Popup" id="popUpAPIKeyinfo" type="dialog"/>
-    <container displayname="Form" id="frmHome" type="form">
-        <component displayname="TextBox2" id="txtFirstName" type="textbox2"/>
-        <component displayname="TextBox2" id="txtLastName" type="textbox2"/>
-        <component displayname="TextBox2" id="txtCity" type="textbox2"/>
-        <component displayname="ListBox" id="lstbxState" type="listbox"/>
-        <component displayname="ListBox" id="lstbxCountry" type="listbox"/>
+    <container type="dialog" id="HdrfrmPipl" displayname="Popup"/>
+    <container type="form" id="frmAPIKey" displayname="Form">
+        <component type="textbox2" id="txtAPIKey" displayname="TextBox2"/>
     </container>
-    <container displayname="Form" id="frmAPIKey" type="form">
-        <component displayname="TextBox2" id="txtAPIKey" type="textbox2"/>
+    <container type="form" id="frmDossier" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form">
+        <component type="textbox2" id="txtFirstName" displayname="TextBox2"/>
+        <component type="textbox2" id="txtLastName" displayname="TextBox2"/>
+        <component type="textbox2" id="txtCity" displayname="TextBox2"/>
+        <component type="listbox" id="lstbxState" displayname="ListBox"/>
+        <component type="listbox" id="lstbxCountry" displayname="ListBox"/>
     </container>
-    <container displayname="Form" id="frmHome" type="form">
-        <component displayname="TextBox2" id="txtFirstName" type="textbox2"/>
-        <component displayname="TextBox2" id="txtLastName" type="textbox2"/>
-        <component displayname="TextBox2" id="txtCity" type="textbox2"/>
-        <component displayname="ListBox" id="lstbxState" type="listbox"/>
-        <component displayname="ListBox" id="lstbxCountry" type="listbox"/>
+    <container type="form" id="frmPipl" displayname="Form"/>
+    <container type="dialog" id="popUpAPIKeyinfo" displayname="Popup"/>
+    <container type="form" id="frmHome" displayname="Form">
+        <component type="textbox2" id="txtFirstName" displayname="TextBox2"/>
+        <component type="textbox2" id="txtLastName" displayname="TextBox2"/>
+        <component type="textbox2" id="txtCity" displayname="TextBox2"/>
+        <component type="listbox" id="lstbxState" displayname="ListBox"/>
+        <component type="listbox" id="lstbxCountry" displayname="ListBox"/>
     </container>
-    <container displayname="Form" id="frmPipl" type="form"/>
-    <container displayname="Popup" id="popUpAPIKeyinfo" type="dialog"/>
-    <container displayname="Form" id="frmHome" type="form">
-        <component displayname="TextBox2" id="txtFirstName" type="textbox2"/>
-        <component displayname="TextBox2" id="txtLastName" type="textbox2"/>
-        <component displayname="TextBox2" id="txtCity" type="textbox2"/>
-        <component displayname="ListBox" id="lstbxState" type="listbox"/>
-        <component displayname="ListBox" id="lstbxCountry" type="listbox"/>
+    <container type="form" id="frmHome" displayname="Form">
+        <component type="textbox2" id="txtFirstName" displayname="TextBox2"/>
+        <component type="textbox2" id="txtLastName" displayname="TextBox2"/>
+        <component type="textbox2" id="txtCity" displayname="TextBox2"/>
+        <component type="listbox" id="lstbxState" displayname="ListBox"/>
+        <component type="listbox" id="lstbxCountry" displayname="ListBox"/>
     </container>
     <globalsequences/>
     <skins/>

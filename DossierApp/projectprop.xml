@@ -113,8 +113,8 @@
     <attributes name="GET_PACKAGE_SIZE" value="false"/>
     <attributes name="allowselfsignedcertificate" value="false"/>
     <attributes name="NFC" value="false"/>
-    <attributes name="tcnth240basefontsize" value="12"/>
     <attributes name="tcbb480basefontsize" value="17"/>
+    <attributes name="tcnth240basefontsize" value="12"/>
     <attributes name="desktopwebnoscriptmessage" value="To use this site, first enable your browser&#039;s JavaScript support and then refresh this page."/>
     <attributes name="tcbb360basefontsize" value="13"/>
     <attributes name="WP8_ID_CAP_PHONEDIALER" value="true"/>
@@ -205,7 +205,7 @@
     <attributes name="tcphoneformatindicator" value="false"/>
     <attributes name="Location" value="true"/>
     <attributes name="ACCESS_SURFACE_FLINGER" value="false"/>
-    <attributes name="currentgaversion" value="5.5.19.QA_v201309102135"/>
+    <attributes name="currentgaversion" value="5.5.0.beta2_v201309291425"/>
     <attributes name="mwhttpsportkey" value=""/>
     <attributes name="pathkey" value=""/>
     <attributes name="vendornamekey" value="KonyLabs"/>
@@ -223,8 +223,8 @@
     <attributes name="ID_CAP_ISV_CAMERA" value="true"/>
     <attributes name="access_sms_mms" value="false"/>
     <attributes name="urlschemanameorder" value=""/>
-    <attributes name="win8packagelogokey" value=""/>
     <attributes name="desktopwebwidthoption" value="Percentage"/>
+    <attributes name="win8packagelogokey" value=""/>
     <attributes name="CAMERA" value="false"/>
     <attributes name="WP8_ID_CAP_MEDIALIB_PHOTO" value="true"/>
     <attributes name="access_location_services" value="false"/>
@@ -376,9 +376,9 @@
     <attributes name="SET_ACTIVITY_WATCHER" value="false"/>
     <attributes name="tcnth320basefontsize" value="15"/>
     <attributes name="WP8_ID_CAP_WALLET" value="true"/>
+    <attributes name="svcaddrkey" value="10.10.5.111"/>
     <attributes name="WP8_ID_CAP_WEBBROWSERCOMPONENT" value="true"/>
     <attributes name="ID_CAP_CAMERA" value="false"/>
-    <attributes name="svcaddrkey" value="10.10.5.127"/>
     <attributes name="spaandroidtab1024basefontsize" value="16"/>
     <attributes name="SIGNAL_PERSISTENT_PROCESSES" value="false"/>
     <attributes name="tcbb240basefontsize" value="12"/>
