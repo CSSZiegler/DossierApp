@@ -15,6 +15,13 @@
         <component type="listbox" id="lstbxState" displayname="ListBox"/>
         <component type="listbox" id="lstbxCountry" displayname="ListBox"/>
     </container>
+    <container type="form" id="frmHome" displayname="Form">
+        <component type="textbox2" id="txtFirstName" displayname="TextBox2"/>
+        <component type="textbox2" id="txtLastName" displayname="TextBox2"/>
+        <component type="textbox2" id="txtCity" displayname="TextBox2"/>
+        <component type="listbox" id="lstbxState" displayname="ListBox"/>
+        <component type="listbox" id="lstbxCountry" displayname="ListBox"/>
+    </container>
     <container type="dialog" id="HdrfrmPipl" displayname="Popup"/>
     <container type="form" id="frmAPIKey" displayname="Form">
         <component type="textbox2" id="txtAPIKey" displayname="TextBox2"/>

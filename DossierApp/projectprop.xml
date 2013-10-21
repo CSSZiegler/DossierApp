@@ -269,7 +269,7 @@
     <attributes name="pasteboardtype" value="systemlevel"/>
     <attributes name="tcandroid400basefontsize" value="14"/>
     <attributes name="androidscreenresizeable" value="false"/>
-    <attributes name="svcusedefault" value="false"/>
+    <attributes name="svcusedefault" value="true"/>
     <attributes name="tcandroid440basefontsize" value="15"/>
     <attributes name="CHANGE_NETWORK_STATE" value="false"/>
     <attributes name="desktopwebaligenmentoption" value="left"/>
@@ -376,7 +376,7 @@
     <attributes name="SET_ACTIVITY_WATCHER" value="false"/>
     <attributes name="tcnth320basefontsize" value="15"/>
     <attributes name="WP8_ID_CAP_WALLET" value="true"/>
-    <attributes name="svcaddrkey" value="10.10.5.111"/>
+    <attributes name="svcaddrkey" value="10.10.5.172"/>
     <attributes name="WP8_ID_CAP_WEBBROWSERCOMPONENT" value="true"/>
     <attributes name="ID_CAP_CAMERA" value="false"/>
     <attributes name="spaandroidtab1024basefontsize" value="16"/>
